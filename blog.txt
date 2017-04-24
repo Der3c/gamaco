@@ -8,4 +8,5 @@ Blog Post #4 - Build a webapp that counts specific characters in a phrase. Place
 Blog Post #5 - How I built the JS rock, paper, scissors game for my kids.
 Blog Post #6 - in JS, the difference between == and ===.
 Blog Post #7 - learning presentation skills and storytelling.
-Blog Post #8 - Consider a web history section. 
+Blog Post #8 - Consider a web history section.
+Blog Post #9 - Post that talks about operator types in JS.

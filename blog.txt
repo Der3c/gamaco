@@ -10,4 +10,5 @@ Blog Post #6 - in JS, the difference between == and ===.
 Blog Post #7 - learning presentation skills and storytelling.
 Blog Post #8 - Consider a web history section.
 Blog Post #9 - Post that talks about operator types in JS.
-Blog Post #10 - Designing awesome forms. 
+Blog Post #10 - Designing awesome forms.
+Blog Post #11 - JQuery - When to use 'this' vs when to use actual 'element'

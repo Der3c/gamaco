@@ -5,28 +5,69 @@ body {
   font-size: 62.5%;
 }
 
-.frame {
-  padding: 2em;
-  border-radius: 3em;
-  box-shadow: inset 0em 0.1em rgba(255,255,255 0.2);
-  background-color: red;
-  margin: 5em 20em 20em 10em;
+main {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#rButton, #lButton, #fButton {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  border: none;
+  outline-color: #ed9090;
 
 }
 
-.frame h1 {
-  font-size: 3em;
+h1 {
   font-family: cursive;
-  padding: 0.5em;
+  color: gold;
+  font-size: 30px;
+  padding-bottom: 5px;
 }
 
-.wrapper {
-  border-radius: 1em;
-  box-shadow: inset 0em 0.1em rgba(255,255,255 0.2);
-  background: silver;
-  height: 64em;
-  width: 64em;
-  margin: auto;
-  overflow: hidden;
+#etch {
+  padding-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 850px;
+  width: 800px;
+  background-color: #d85656;
+  border-radius: 40px;
+}
 
+#sketch {
+  margin-left: auto;
+  margin-right: auto;
+  height: 640px;
+  width: 640px;
+  background-color: silver;
+}
+
+#rightWheel {
+  float: right;
+  display: inline;
+  height: 130px;
+  width: 130px;
+  border-radius: 100px;
+  background-color: white;
+  margin-top: 40px;
+  margin-right: 50px;
+}
+
+
+#leftWheel {
+  float: left;
+  display: inline;
+  height: 130px;
+  width: 130px;
+  border-radius: 100px;
+  background-color: white;
+  margin-top: 40px;
+  margin-left: 50px;
 }

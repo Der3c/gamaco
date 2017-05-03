@@ -47,6 +47,15 @@ h1 {
   height: 640px;
   width: 640px;
   background-color: silver;
+  overflow: hidden;
+}
+
+.grid {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: 1px solid #000;
+	display: inline-block;
 }
 
 #rightWheel {

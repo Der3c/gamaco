@@ -9,7 +9,16 @@ function createGrid(x) {
   $(".grid").height(640/x);
 };
 
+//This creates an initial large sketch grid and colors over it when the mouse enters the grid insde #sketch
 $(document).ready(function() {
-  createGrid(16);
+  createGrid(50);
+
+  $(".grid").mouseover(function() {
+    $(this).css('background-color', 'black');
+  });
+
+
+
+
 
 });

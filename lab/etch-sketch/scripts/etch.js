@@ -17,6 +17,16 @@ $(document).ready(function() {
     $(this).css('background-color', 'black');
   });
 
+//Controls the reset button
+  $("#rButton").click(function() {
+    $(".grid").css('background-color', 'silver');
+  });
+
+//Controls the Large grid button
+  $("#lButton").click(function() {
+    $(".grid").css('background-color', 'silver');
+    createGrid(50); 
+  });
 
 
 

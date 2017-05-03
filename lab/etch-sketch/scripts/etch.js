@@ -5,8 +5,8 @@ function createGrid(x) {
       $("#sketch").append("<div class='grid'></div>");
     };
   };
-  $(".grid").width(640/x);
-  $(".grid").height(640/x);
+  $(".grid").width(650/x);
+  $(".grid").height(650/x);
 };
 
 //This creates an initial large sketch grid and colors over it when the mouse enters the grid insde #sketch
@@ -25,10 +25,14 @@ $(document).ready(function() {
 //Controls the Large grid button
   $("#lButton").click(function() {
     $(".grid").css('background-color', 'silver');
-    createGrid(50); 
+    createGrid(30);
   });
 
-
+//Controls the Fine grid button
+    $("#fButton").click(function() {
+      $(".grid").css('background-color', 'silver');
+      createGrid(50);
+    });
 
 
 });

@@ -12,3 +12,4 @@ Blog Post #8 - Consider a web history section.
 Blog Post #9 - Post that talks about operator types in JS.
 Blog Post #10 - Designing awesome forms.
 Blog Post #11 - JQuery - When to use 'this' vs when to use actual 'element'
+Blog Post #12 - Its okay to be opinionated aka why saying "learn both" sucks
